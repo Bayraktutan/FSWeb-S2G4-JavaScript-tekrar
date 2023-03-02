@@ -146,6 +146,19 @@ for (let i = 0; i < Object.keys(countObject).length; i++) {
   );
 }
 
+//Alternative solution
+
+// tekraredensayilar = [];
+// const counts = {};
+// for (let i = 0; i < sayilar.length; i++) {
+//   const num = sayilar[i];
+//   counts[num] = counts[num] ? counts[num] + 1 : 1;
+// }
+// for (num in counts) {
+//   tekraredensayilar.push(`${num} sayısı ${counts[num]} kere tekrar edilmiştir`);
+// }
+// console.log(tekraredensayilar);
+
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 function sa() {
   console.log("Kodlar çalışıyor");
